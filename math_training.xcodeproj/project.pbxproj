@@ -16,6 +16,8 @@
 		C676711C2BAC7C3A00AD939C /* math_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676711B2BAC7C3A00AD939C /* math_trainingTests.swift */; };
 		C67671262BAC7C3A00AD939C /* math_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67671252BAC7C3A00AD939C /* math_trainingUITests.swift */; };
 		C67671282BAC7C3A00AD939C /* math_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67671272BAC7C3A00AD939C /* math_trainingUITestsLaunchTests.swift */; };
+		C67671372BAC85D300AD939C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C67671362BAC85D300AD939C /* .gitignore */; };
+		C67671392BAC85E500AD939C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C67671382BAC85E500AD939C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C67671212BAC7C3A00AD939C /* math_trainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = math_trainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67671252BAC7C3A00AD939C /* math_trainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = math_trainingUITests.swift; sourceTree = "<group>"; };
 		C67671272BAC7C3A00AD939C /* math_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = math_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C67671362BAC85D300AD939C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C67671382BAC85E500AD939C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		C67670F82BAC7C3900AD939C = {
 			isa = PBXGroup;
 			children = (
+				C67671382BAC85E500AD939C /* README.md */,
+				C67671362BAC85D300AD939C /* .gitignore */,
 				C67671032BAC7C3900AD939C /* math_training */,
 				C676711A2BAC7C3A00AD939C /* math_trainingTests */,
 				C67671242BAC7C3A00AD939C /* math_trainingUITests */,
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67671372BAC85D300AD939C /* .gitignore in Resources */,
 				C676710E2BAC7C3A00AD939C /* Assets.xcassets in Resources */,
+				C67671392BAC85E500AD939C /* README.md in Resources */,
 				C67671112BAC7C3A00AD939C /* Base in Resources */,
 				C676710C2BAC7C3900AD939C /* Base in Resources */,
 			);
