@@ -154,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="824.63768115942037" y="-29.347826086956523"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="1hq-Zp-yFT">
             <objects>
-                <viewController id="zJZ-8K-UqU" sceneMemberID="viewController">
+                <viewController id="zJZ-8K-UqU" customClass="ResultViewController" customModule="math_training" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BSQ-np-NcY">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="916"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -176,6 +176,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="BACK"/>
+                                <connections>
+                                    <segue destination="Z5z-Tg-wTs" kind="unwind" unwindAction="backToTitleWithSender:" id="DKc-pf-KO5"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100％" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2O6-C5-x49">
                                 <rect key="frame" x="0.0" y="263" width="428" height="72"/>
@@ -197,8 +200,13 @@
                         <viewLayoutGuide key="safeArea" id="ijw-kb-rmE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="aH1-iP-AP2" id="eQb-KN-u0H"/>
+                        <outlet property="resultLabel" destination="2O6-C5-x49" id="y3M-kW-Zph"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5QG-jt-KIP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Z5z-Tg-wTs" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1513.7404580152672" y="-29.577464788732396"/>
         </scene>
